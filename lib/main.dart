@@ -135,104 +135,13 @@ class HorizontalListView extends StatelessWidget {
           ],
         ),
       ),),
-      body: ListView(
-        scrollDirection: Axis.horizontal,
-        children: [
-          SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),
-          SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),
-          SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),
-          SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),
-          SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),SizedBox(
-            width: 100,
-            height: 50,
-            child: Text('listview'),
-          ),
+      body: ListView.builder(
+        itemCount: 20,
+          itemBuilder: (context, index){
+            return Text('Kazi Shamim');
 
-        ],
+      }
+
       ),
     );
   }
